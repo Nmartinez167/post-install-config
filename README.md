@@ -21,35 +21,84 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Windows 10</b> (21H2)
 
 <h2>Post-Install Configuration Objectives</h2>
+Here’s a refined and professional rephrasing of your content for inclusion in your portfolio. It keeps the structure and detail while improving clarity, flow, and tone:
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+---
 
-<h2>Configuration Steps</h2>
+### **Project Phase: osTicket System Configuration**
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+**Goal**
+The objective of this phase was to transition the osTicket system from a basic Alpha installation into a fully functional, production-ready support platform. This involved configuring the system to efficiently manage support tickets, user requests, and staff assignments.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+---
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+### **Overview: Key Component Configuration**
+
+In this phase, critical elements of osTicket were configured to ensure optimal functionality and streamlined support operations. The setup included:
+
+* **Roles**: Defined access levels and permissions by assigning roles such as Admin and Support Staff.
+* **Departments**: Created specialized departments (e.g., IT, Customer Support) to handle tickets by category.
+* **Teams**: Established Level I and Level II support teams for tiered assistance.
+* **Agents (Support Staff)**: Added support agents responsible for managing and resolving tickets.
+* **Users (End Users)**: Registered users who will submit support tickets.
+* **SLAs (Service Level Agreements)**: Set resolution timeframes based on issue severity.
+* **Help Topics**: Categorized ticket types to streamline routing and resolution.
+
+---
+
+### **Configuration Breakdown**
+
+#### **1. Roles**
+
+* **Path**: *Admin Panel → Agents → Roles*
+* Assigned the **Supreme Admin** role for full administrative access and control.
+
+#### **2. Departments**
+
+* **Path**: *Admin Panel → Agents → Departments*
+* Created a department called **System Administrators** to handle critical, system-level issues.
+
+#### **3. Teams**
+
+* **Path**: *Admin Panel → Agents → Teams*
+* Configured **Level I** and **Level II** teams to support different levels of technical requests.
+
+#### **4. Agents**
+
+* **Path**: *Admin Panel → Agents → Add New*
+* Added agents (e.g., *Jane*, *John*) to actively manage and respond to support tickets.
+
+#### **5. Users**
+
+* **Path**: *Agent Panel → Users → Add New*
+* Registered end users (e.g., *Karen*, *Ken*) who will be submitting support tickets.
+
+#### **6. SLAs (Service Level Agreements)**
+
+* **Path**: *Admin Panel → Manage → SLA*
+* Defined resolution policies for ticket prioritization:
+
+  * **Sev-A**: 1-hour response, 24/7 coverage for critical outages.
+  * **Sev-B**: 4-hour response, 24/7 coverage for high-priority issues.
+  * **Sev-C**: 8-hour response, business hours only, for non-critical issues.
+
+#### **7. Help Topics**
+
+* **Path**: *Admin Panel → Manage → Help Topics*
+* Created structured categories to streamline support requests:
+
+  * Business-Critical Outage
+  * Personal Computer Issues
+  * Equipment Requests
+  * Password Resets
+
+---
+
+### **Conclusion**
+
+This phase successfully transformed the osTicket platform into a robust, operational help desk system. By meticulously configuring roles, departments, teams, users, SLAs, and help topics, the system is now optimized for effective ticket routing, prioritization, and resolution.
+
+The final setup enables the support team to handle a wide range of requests with improved efficiency and responsiveness, ultimately enhancing the overall user experience and increasing customer satisfaction.
+
+---
+
