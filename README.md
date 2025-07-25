@@ -3,12 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+<h2>This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.</h2>
 
 <h2>Environments and Technologies Used</h2>
 
@@ -21,7 +16,6 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Windows 10</b> (21H2)
 
 <h2>Post-Install Configuration Objectives</h2>
-Here’s a refined and professional rephrasing of your content for inclusion in your portfolio. It keeps the structure and detail while improving clarity, flow, and tone:
 
 ---
 
