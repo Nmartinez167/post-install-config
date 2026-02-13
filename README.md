@@ -21,9 +21,6 @@
 
 ### **Project Phase: osTicket System Configuration**
 
-**Goal**
-The objective of this phase was to transition the osTicket system from a basic Alpha installation into a fully functional, production-ready support platform. This involved configuring the system to efficiently manage support tickets, user requests, and staff assignments.
-
 ---
 
 ### **Overview: Key Component Configuration**
@@ -97,9 +94,6 @@ In this phase, critical elements of osTicket were configured to ensure optimal f
 ---<img width="1213" height="702" alt="Screenshot 2025-10-09 144116" src="https://github.com/user-attachments/assets/480f5c2e-4432-47ba-9093-bfc16ddaf014" />
 
 
-### **Conclusion**
-
-This phase successfully transformed the osTicket platform into a robust, operational help desk system. By meticulously configuring roles, departments, teams, users, SLAs, and help topics, the system is now optimized for effective ticket routing, prioritization, and resolution.
 
 The final setup enables the support team to handle a wide range of requests with improved efficiency and responsiveness, ultimately enhancing the overall user experience and increasing customer satisfaction.
 
