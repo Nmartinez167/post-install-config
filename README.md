@@ -68,9 +68,16 @@
 
 * **Path**: *Admin Panel → Agents → Add New*
 * Added agents (e.g., *Jane*, *John*) to actively manage and respond to support tickets.
-<img width="1270" height="507" alt="Screenshot 2025-10-09 140516" src="https://github.com/user-attachments/assets/d919e19c-c74c-41d3-9f08-493fabf7bd0f" />
+<img width="1301" height="503" alt="4444444" src="https://github.com/user-attachments/assets/6f3b5c44-9dad-45bf-8530-86d6d7abcc09" />
 
-#### **5. Users**
+<img width="1363" height="788" alt="5555555" src="https://github.com/user-attachments/assets/d6cf3dd0-3015-4dff-b725-c31f0fc30d6b" />
+
+<img width="1315" height="707" alt="66666666" src="https://github.com/user-attachments/assets/b793654f-2d6d-4b8a-b509-0b6bdde288e4" />
+
+<img width="1295" height="602" alt="77777" src="https://github.com/user-attachments/assets/9376bc4a-f9e2-4578-8249-e7c96001972c" />
+
+
+<img width="1106" height="363" alt="8888888" src="https://github.com/user-attachments/assets/c4b48f42-7a6e-4da6-9987-6e080386a247" />
 
 * **Path**: *Agent Panel → Users → Add New*
 * Registered end users (e.g., *Karen*, *Ken*) who will be submitting support tickets. We can also have people who arent part of the organization submit tickets by making sure these settings are chosen.
