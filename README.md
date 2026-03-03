@@ -23,20 +23,6 @@
 
 ---
 
-### **Overview: Key Component Configuration**
-
-In this phase, critical elements of osTicket were configured to ensure optimal functionality and streamlined support operations. The setup included:
-
-* **Roles**: Defined access levels and permissions by assigning roles such as Admin and Support Staff.
-* **Departments**: Created specialized departments (e.g., IT, Customer Support) to handle tickets by category.
-* **Teams**: Established Level I and Level II support teams for tiered assistance.
-* **Agents (Support Staff)**: Added support agents responsible for managing and resolving tickets.
-* **Users (End Users)**: Registered users who will submit support tickets.
-* **SLAs (Service Level Agreements)**: Set resolution timeframes based on issue severity.
-* **Help Topics**: Categorized ticket types to streamline routing and resolution.
-
----
-
 ### **Configuration Breakdown**
 
 #### **1. Roles**
