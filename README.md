@@ -61,7 +61,7 @@
 
 
 * **Path**: *Admin Panel → Agents → Teams*
-* Configured **Level I** and **Level II** teams to support different levels of technical requests.
+* Configured **Level I** and *online banking* teams to support different levels of technical requests.
 <img width="1301" height="501" alt="Screenshot 2025-10-09 135730" src="https://github.com/user-attachments/assets/1bdc9a7a-d229-477e-9e2a-49e6a508adb9" />
 
 #### **4. Agents**
