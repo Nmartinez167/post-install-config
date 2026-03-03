@@ -43,8 +43,24 @@ In this phase, critical elements of osTicket were configured to ensure optimal f
 
 * **Path**: *Admin Panel → Agents → Roles*
 * Assigned the **Supreme Admin** role for full administrative access and control.
- 
-<img width="1332" height="627" alt="Screenshot 2025-10-09 134343" src="https://github.com/user-attachments/assets/91b04e73-47ee-4137-85d9-530c3824ff3d" />
+* 
+ <img width="1422" height="547" alt="Screenshot 2026-02-19 164822" src="https://github.com/user-attachments/assets/3e8a9ebb-19fc-4670-9e79-37e6f7c99ca8" />
+
+<img width="1327" height="551" alt="Screenshot 2026-02-19 165136" src="https://github.com/user-attachments/assets/fac8e788-74b7-4d8b-be51-2a38849866b3" />
+
+<img width="1442" height="677" alt="Screenshot 2026-02-19 165747" src="https://github.com/user-attachments/assets/9fe22e92-bc1b-4d2d-940c-5fdcb036e04d" />
+
+<img width="1240" height="787" alt="Screenshot 2026-02-19 165856" src="https://github.com/user-attachments/assets/235b3afd-ad3a-4e2f-8f6c-511fc6f5f693" />
+
+<img width="1406" height="916" alt="Screenshot 2026-02-19 170026" src="https://github.com/user-attachments/assets/bfccdd01-597a-43a8-a6b6-0393ac2a689f" />
+
+<img width="1327" height="787" alt="Screenshot 2026-02-19 170138" src="https://github.com/user-attachments/assets/f76958fc-2291-4a07-9f23-c5bfd77948e3" />
+
+<img width="1367" height="672" alt="Screenshot 2026-02-19 170226" src="https://github.com/user-attachments/assets/8babc703-dc37-47d1-9a44-ccf63dd125b5" />
+
+
+<img width="1320" height="616" alt="Screenshot 2026-02-19 170330" src="https://github.com/user-attachments/assets/dd36a1eb-5742-4f55-81ea-d6629996a96e" />
+
 
 #### **2. Departments**
 
