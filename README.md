@@ -66,9 +66,13 @@ In this phase, critical elements of osTicket were configured to ensure optimal f
 
 * **Path**: *Admin Panel → Agents → Departments*
 * Created a department called **Maintanance** to handle critical, system-level issues.
-<img width="1307" height="543" alt="Screenshot 2025-10-09 134619" src="https://github.com/user-attachments/assets/a9fdbe51-0eac-43d8-93cb-acf6eacc5303" />
 
-#### **3. Teams**
+  <img width="1328" height="497" alt="Screenshot 2026-02-19 170651" src="https://github.com/user-attachments/assets/fd2bc4c3-28ce-485c-99f8-c57d1e04fb04" />
+
+  <img width="1575" height="956" alt="Screenshot 2026-02-19 171139" src="https://github.com/user-attachments/assets/5dc6fc4e-8ce6-4162-a675-6f15836bdf44" />
+
+<img width="1332" height="588" alt="Screenshot 2026-02-19 171313" src="https://github.com/user-attachments/assets/86b4b752-c0cd-4ec3-85e3-27d2bdd565d6" />
+
 
 * **Path**: *Admin Panel → Agents → Teams*
 * Configured **Level I** and **Level II** teams to support different levels of technical requests.
