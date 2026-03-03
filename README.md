@@ -87,7 +87,9 @@ In this phase, critical elements of osTicket were configured to ensure optimal f
 #### **5. Users**
 
 * **Path**: *Agent Panel → Users → Add New*
-* Registered end users (e.g., *Karen*, *Ken*) who will be submitting support tickets.
+* Registered end users (e.g., *Karen*, *Ken*) who will be submitting support tickets. We can also have people who arent part of the organization submit tickets by making sure these settings are chosen.
+*<img width="1319" height="911" alt="12345" src="https://github.com/user-attachments/assets/972887b7-c8aa-4167-9e37-3675fa65db58" />
+ 
 <img width="1326" height="552" alt="Screenshot 2025-10-09 142407" src="https://github.com/user-attachments/assets/9d91b9c2-1a62-4822-a138-28fac67f5b35" />
 
 #### **6. SLAs (Service Level Agreements)**
