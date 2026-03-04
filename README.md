@@ -89,6 +89,9 @@
 
 <img width="1260" height="798" alt="user2" src="https://github.com/user-attachments/assets/43c8ab87-9bef-4aa5-a771-d0c7b9cf58ef" />
 
+<img width="1362" height="712" alt="user" src="https://github.com/user-attachments/assets/23a66b9c-f74f-486f-b513-4289a66ac9aa" />
+
+
 #### **6. SLAs (Service Level Agreements)**
 
 * **Path**: *Admin Panel → Manage → SLA*
