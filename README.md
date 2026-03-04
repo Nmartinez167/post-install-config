@@ -76,21 +76,18 @@
 
 <img width="1295" height="602" alt="77777" src="https://github.com/user-attachments/assets/9376bc4a-f9e2-4578-8249-e7c96001972c" />
 
-
 <img width="1106" height="363" alt="8888888" src="https://github.com/user-attachments/assets/c4b48f42-7a6e-4da6-9987-6e080386a247" />
+
+<img width="1362" height="712" alt="user" src="https://github.com/user-attachments/assets/c09cae73-0c57-4b96-9062-ab6ba987259c" />
+
+<img width="1260" height="798" alt="user2" src="https://github.com/user-attachments/assets/ac424540-1772-4a99-8f40-dcc5ef925656" />
+
 
 * **Path**: *Agent Panel → Users → Add New*
 * Registered end users (e.g., *Karen*, *Ken*) who will be submitting support tickets. We can also have people who arent part of the organization submit tickets by making sure these settings are chosen.
 *<img width="1319" height="911" alt="12345" src="https://github.com/user-attachments/assets/972887b7-c8aa-4167-9e37-3675fa65db58" />
  
 <img width="1326" height="552" alt="Screenshot 2025-10-09 142407" src="https://github.com/user-attachments/assets/9d91b9c2-1a62-4822-a138-28fac67f5b35" />
-
-<img width="1362" height="712" alt="user" src="https://github.com/user-attachments/assets/29b0b374-2635-4301-be56-c9978a9365cb" />
-
-<img width="1260" height="798" alt="user2" src="https://github.com/user-attachments/assets/43c8ab87-9bef-4aa5-a771-d0c7b9cf58ef" />
-
-<img width="1362" height="712" alt="user" src="https://github.com/user-attachments/assets/23a66b9c-f74f-486f-b513-4289a66ac9aa" />
-
 
 #### **6. SLAs (Service Level Agreements)**
 
