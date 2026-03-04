@@ -97,6 +97,9 @@
   * **Sev-A**: 1-hour response, 24/7 coverage for critical outages.
   * **Sev-B**: 4-hour response, 24/7 coverage for high-priority issues.
   * **Sev-C**: 8-hour response, business hours only, for non-critical issues.
+
+<img width="1314" height="886" alt="sla" src="https://github.com/user-attachments/assets/abb6a87f-6f13-4703-a474-35af373a3e63" />
+
 <img width="1277" height="570" alt="Screenshot 2025-10-09 143438" src="https://github.com/user-attachments/assets/764a8d79-e633-4dc4-b51d-720b4efb424c" />
 
 
