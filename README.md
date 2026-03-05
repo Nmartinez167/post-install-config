@@ -29,7 +29,7 @@
 
 * **Path**: *Admin Panel → Agents → Roles*
 * Assigned the **Supreme Admin** role for full administrative access and control.
-* 
+* We assigned a supreme as an example this role would be assigned to someone like the head of I.T or other managers depending on your work place.
  <img width="1422" height="547" alt="Screenshot 2026-02-19 164822" src="https://github.com/user-attachments/assets/3e8a9ebb-19fc-4670-9e79-37e6f7c99ca8" />
 
 <img width="1327" height="551" alt="Screenshot 2026-02-19 165136" src="https://github.com/user-attachments/assets/fac8e788-74b7-4d8b-be51-2a38849866b3" />
