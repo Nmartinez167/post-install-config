@@ -1,44 +1,45 @@
 
+
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
 
-<h1>osTicket - Post-Install Configuration</h1>
+# osTicket — Post-Installation Configuration
 
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.
+## Project Overview
 
-Admin/Analyst Login Page: [Admin Login](http://localhost/osTicket/scp/login.php)
+This project documents the post-installation configuration of **osTicket**, an open-source help desk ticketing system. After installing the application, the lab focuses on setting up roles, departments, teams, agents, end users, user access settings, service-level agreements (SLAs), and help topics.
 
-End Users osTicket URL: [End Users Ticketing Page](http://localhost/osTicket)
+The goal is to organize the help desk so that support requests can be managed by the appropriate people and categorized according to their needs.
 
+## Environment and Technologies
 
-<h2>Environments and Technologies Used</h2>
+- **Cloud platform:** Microsoft Azure (Virtual Machines)
+- **Remote access:** Remote Desktop Protocol (RDP)
+- **Web server:** Internet Information Services (IIS)
+- **Operating system:** Windows 10 (21H2)
+- **Application:** osTicket
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+## Project Objectives
 
-<h2>Operating Systems Used </h2>
+- Configure roles and permissions for agents.
+- Organize agents into departments and teams.
+- Set up end-user accounts and ticket submission settings.
+- Define SLA plans for different ticket priorities.
+- Create help topics to organize incoming support requests.
+- Review access and security settings.
 
-- Windows 10</b> (21H2)
+## Configuration Walkthrough
 
-<h2>Post-Install Configuration Objectives</h2>
-- Set up roles and permissions for agents and users.
+### 1. Configure Roles
 
-- Configure ticket visibility and help desk functionality.
-  
-- Establish SLAs to define response times for tickets.
-  
-- Enhance user experience by organizing help topics.
-  
-- Secure the osTicket system with proper permissions and user settings.
+**Navigation:** Admin Panel → Agents → Roles
 
+1. Open the **Roles** section in the Admin Panel.
+2. Review the available roles and their permissions.
+3. Assign the **Supreme Admin** role as an example of a role with broad administrative access.
 
-#### Step 1: Configure Roles
+In a real support organization, this level of access should be limited to authorized personnel, such as the IT manager or designated system administrators. Agents should receive only the permissions required for their responsibilities.
 
-* **Path**: *Admin Panel → Agents → Roles*
-* Assigned the **Supreme Admin** role for full administrative access and control.
-* We assigned a supreme as an example this role would be assigned to someone like the head of I.T or other managers depending on your work place.
- <img width="50%" height="50%" alt="Screenshot 2026-02-19 164822" src="https://github.com/user-attachments/assets/3e8a9ebb-19fc-4670-9e79-37e6f7c99ca8" />
+<img width="50%" height="50%" alt="Screenshot 2026-02-19 164822" src="https://github.com/user-attachments/assets/3e8a9ebb-19fc-4670-9e79-37e6f7c99ca8" />
 
 <img width="50%" height="50%" alt="Screenshot 2026-02-19 165136" src="https://github.com/user-attachments/assets/fac8e788-74b7-4d8b-be51-2a38849866b3" />
 
@@ -52,39 +53,49 @@ End Users osTicket URL: [End Users Ticketing Page](http://localhost/osTicket)
 
 <img width="50%" height="50%" alt="Screenshot 2026-02-19 170226" src="https://github.com/user-attachments/assets/8babc703-dc37-47d1-9a44-ccf63dd125b5" />
 
+### 2. Configure Departments
+
+**Navigation:** Admin Panel → Agents → Departments
+
+1. Open **Departments**.
+2. Create departments to organize ticket ownership and visibility.
+3. In this lab, example departments include **SysAdmins** and **Maintenance**.
+4. Use departments to route issues to the appropriate support group.
+
+The Maintenance department is used as an example for handling maintenance-related or system-level issues.
 
 <img width="50%" height="50%" alt="Screenshot 2026-02-19 170330" src="https://github.com/user-attachments/assets/dd36a1eb-5742-4f55-81ea-d6629996a96e" />
 
+<img width="50%" height="50%" alt="Screenshot 2026-02-19 170651" src="https://github.com/user-attachments/assets/fd2bc4c3-28ce-485c-99f8-c57d1e04fb04" />
 
-#### Step 2: Configure Departments
-- Navigate to Admin Panel -> Agents -> Departments.
-- Create departments for ticket visibility:
-  - Example: SysAdmins
-
-* **Path**: *Admin Panel → Agents → Departments*
-* Created a department called **Maintanance** to handle critical, system-level issues.
-
-  <img width="50%" height="50%" alt="Screenshot 2026-02-19 170651" src="https://github.com/user-attachments/assets/fd2bc4c3-28ce-485c-99f8-c57d1e04fb04" />
-
-  <img width="50%" height="50%" alt="Screenshot 2026-02-19 171139" src="https://github.com/user-attachments/assets/5dc6fc4e-8ce6-4162-a675-6f15836bdf44" />
+<img width="50%" height="50%" alt="Screenshot 2026-02-19 171139" src="https://github.com/user-attachments/assets/5dc6fc4e-8ce6-4162-a675-6f15836bdf44" />
 
 <img width="50%" height="50%" alt="Screenshot 2026-02-19 171313" src="https://github.com/user-attachments/assets/86b4b752-c0cd-4ec3-85e3-27d2bdd565d6" />
 
+### 3. Configure Teams
 
-Step 3: Configure Teams
-- Navigate to Admin Panel -> Agents -> Teams.
-- Create a team and pull agents from different departments:
-  - Example: Online Banking
+**Navigation:** Admin Panel → Agents → Teams
+
+1. Open **Teams**.
+2. Create a team.
+3. Add agents from the relevant departments.
+4. In this lab, **Online Banking** is used as an example team name.
+
+Teams can help coordinate work that involves agents from different departments.
+
 <img width="50%" height="50%" alt="Screenshot 2025-10-09 135730" src="https://github.com/user-attachments/assets/1bdc9a7a-d229-477e-9e2a-49e6a508adb9" />
 
-Step 4:Configure Agents (Workers)
+### 4. Add Agents
 
-Configure Agents (Workers)
+**Navigation:** Admin Panel → Agents → Add New
 
-- Navigate to Admin Panel -> Agents -> Add New.
-- Add agents:
-  - Jane (Dept: SysAdmins)
-  - John (Dept: Support)
+1. Open **Add New** under the Agents section.
+2. Enter the agent's account information.
+3. Assign the agent to the appropriate department.
+4. Add the agent to a team when applicable.
+
+The lab uses **Jane** (SysAdmins) and **John** (Support) as example agent accounts.
+
 <img width="50%" height="503" alt="50%" src="https://github.com/user-attachments/assets/6f3b5c44-9dad-45bf-8530-86d6d7abcc09" />
 
 <img width="50%" height="50%" alt="5555555" src="https://github.com/user-attachments/assets/d6cf3dd0-3015-4dff-b725-c31f0fc30d6b" />
@@ -95,57 +106,92 @@ Configure Agents (Workers)
 
 <img width="50%" height="50%" alt="8888888" src="https://github.com/user-attachments/assets/c4b48f42-7a6e-4da6-9987-6e080386a247" />
 
+
+
+
+
+### 5. Add End Users
+
+**Navigation:** Agent Panel → Users → Add New
+
+1. Open **Users** in the Agent Panel.
+2. Select **Add New**.
+3. Enter the end user's information and create the account.
+
+The lab uses **Karen** and **Ken** as example end users. End users are the people who submit support requests through the ticketing portal.
+
 <img width="50%" height="50%" alt="user" src="https://github.com/user-attachments/assets/c09cae73-0c57-4b96-9062-ab6ba987259c" />
 
 <img width="50%" height="50%" alt="user2" src="https://github.com/user-attachments/assets/ac424540-1772-4a99-8f40-dcc5ef925656" />
 
 
-* **Path**: *Agent Panel → Users → Add New*
-* Registered end users (e.g., *Karen*, *Ken*) who will be submitting support tickets. We can also have people who arent part of the organization submit tickets by making sure these settings are chosen.
-  
-* Step 5:
-User Settings
-- Navigate to Admin Panel -> Settings -> User Settings.
-- Configure ticket creation settings:
-  - Uncheck: Unregistered users can create tickets.
-  - Require registration and login to create tickets.
 
-*<img width="50%" height="50%" alt="12345" src="https://github.com/user-attachments/assets/972887b7-c8aa-4167-9e37-3675fa65db58" />
+### 6. Configure User Settings
 
- 
+**Navigation:** Admin Panel → Settings → User Settings
+
+1. Open **User Settings**.
+2. Review the options that control ticket creation.
+3. In this lab, the setting **Unregistered users can create tickets** is unchecked.
+4. This configuration requires users to register and sign in before creating tickets.
+
+Requiring accounts can help an organization manage who submits requests. The appropriate setting depends on the organization's support process.
+
+<img width="50%" height="50%" alt="12345" src="https://github.com/user-attachments/assets/972887b7-c8aa-4167-9e37-3675fa65db58" />
+
 <img width="50%" height="50%" alt="Screenshot 2025-10-09 142407" src="https://github.com/user-attachments/assets/9d91b9c2-1a62-4822-a138-28fac67f5b35" />
 
-#### **6. SLAs (Service Level Agreements)**
+### 7. Configure Service-Level Agreements (SLAs)
 
-* **Path**: *Admin Panel → Manage → SLA*
-* Defined resolution policies for ticket prioritization:
+**Navigation:** Admin Panel → Manage → SLA
 
-  * **Sev-A**: 1-hour response, 24/7 coverage for critical outages.
-  * **Sev-B**: 4-hour response, 24/7 coverage for high-priority issues.
-  * **Sev-C**: 8-hour response, business hours only, for non-critical issues.
+Create SLA plans to define target response or resolution times for different levels of ticket urgency.
+
+The lab uses the following example policies:
+
+| SLA plan | Target shown in this lab | Coverage |
+|---|---|---|
+| **Sev-A** | 1-hour response | 24/7 |
+| **Sev-B** | 4-hour response | 24/7 |
+| **Sev-C** | 8-hour response | Business hours |
+
+These are example lab settings, not universal service commitments. In a production environment, SLA targets should be agreed upon by the organization and configured to match its actual support policies.
 
 <img width="50%" height="50%" alt="sla" src="https://github.com/user-attachments/assets/abb6a87f-6f13-4703-a474-35af373a3e63" />
 
 <img width="50%" height="50%" alt="Screenshot 2025-10-09 143438" src="https://github.com/user-attachments/assets/764a8d79-e633-4dc4-b51d-720b4efb424c" />
 
+### 8. Configure Help Topics
 
-#### **7. Help Topics**
+**Navigation:** Admin Panel → Manage → Help Topics
 
-* **Path**: *Admin Panel → Manage → Help Topics*
-* Created structured categories to streamline support requests:
+Create categories that help users classify their support requests. The lab includes these examples:
 
-  * Business-Critical Outage
-  * Personal Computer Issues
-  * Equipment Requests
-  * Password Resets
-    
+- **Business-Critical Outage**
+- **Personal Computer Issues**
+- **Equipment Requests**
+- **Password Resets**
+
+Organized help topics make it easier to categorize incoming tickets and direct them to the appropriate support workflow.
+
 <img width="50%" height="50%" alt="tp" src="https://github.com/user-attachments/assets/3aa722e7-6860-4790-93c3-3452d1b496c8" />
 
----<img width="50%" height="50%" alt="Screenshot 2025-10-09 144116" src="https://github.com/user-attachments/assets/480f5c2e-4432-47ba-9093-bfc16ddaf014" />
+<img width="50%" height="50%" alt="Screenshot 2025-10-09 144116" src="https://github.com/user-attachments/assets/480f5c2e-4432-47ba-9093-bfc16ddaf014" />
 
+## Outcome
 
+This post-installation configuration organizes the osTicket help desk into roles, departments, teams, agents, and end users. It also establishes example ticket access settings, SLA plans, and help topics.
 
-The final setup enables the support team to handle a wide range of requests with improved efficiency and responsiveness, ultimately enhancing the overall user experience and increasing customer satisfaction.
+Together, these configurations provide a foundation for managing and routing support requests in a structured ticketing environment.
 
----
+## Skills Demonstrated
+
+- Configuring roles and access permissions
+- Creating and organizing departments
+- Creating teams and assigning agents
+- Creating agent and end-user accounts
+- Configuring ticket submission settings
+- Defining example SLA targets
+- Creating help topics for ticket categorization
+- Documenting a help desk configuration process
 
